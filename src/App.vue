@@ -17,7 +17,13 @@
   <!-- <Props/> -->
   <!-- <Parents/> -->
   <!-- <Ref/> -->
-  <Simple_form/>
+  <!-- <Simple_form/> -->
+  <!-- <Modifier/> -->
+  <!-- <Computed/> -->
+  <!-- <Watchers/> -->
+  <!-- <Parent/> -->
+  <Cities/>
+
 </template>
 
 <script>
@@ -38,7 +44,12 @@
 // import Props from './components/Props/Props.vue'
 // import Parents from './components/Child_To_Parent/Parents.vue'
 // import Ref from './components/Ref.vue'
-import Simple_form from './components/Form/Simple_form.vue'
+// import Simple_form from './components/Form/Simple_form.vue'
+// import Modifier from './components/Form/Modifier.vue'
+// import Computed from './components/Computed.vue'
+// import Watchers from './components/Watchers.vue'
+// import Parent from './components/Slots/Parents.vue'
+import Cities from './components/Dynamic_Component/Cities.vue'
 
 export default {
   name: 'App',
@@ -58,7 +69,11 @@ export default {
     // Class_Binding
     // Props
   //  Ref
-  Simple_form
+  // Simple_form
+  // Modifier
+  // Computed
+  // Watchers
+  Cities
   }
 }
 </script>
